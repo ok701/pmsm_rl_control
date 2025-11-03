@@ -2,20 +2,18 @@
 
 Train the model to obtain a customized agent. A **pre-trained agent** is also provided for convenience.
 
-###  Reward Function & Performance
+The following plot shows how varying the reward coefficients affects performance under **high-load conditions**:
 
-The following plot shows how varying the reward coefficients affects performance under **high-load conditions**: 
+<img src="./sim_data/agent/reward_var.png" width="700">
 
-
-![Reward Curve](./sim_data/agent/reward.png)
-![Reward Variation](./sim_data/agent/reward_var.png)
-- 🔴  Reference Speed  
-- 🟢    Q_1, Q_2 = 10 ,  R = 0.1   
-- 🟡    Q_1, Q_2 = 50 ,  R = 0.5  
-- 🔵    Q_1, Q_2 = 5 ,  R = 0.1 
+- Red line: Reference Speed  
+- Green line: $Q_1, Q_2 = 10$, $R = 0.1$  
+- Yellow line: $Q_1, Q_2 = 50$, $R = 0.5$  
+- Blue line: $Q_1, Q_2 = 5$, $R = 0.1$
 
 
-## Parameter Tuning
+
+### Parameter Tuning
 
 You can train and test with various parameters, such as:
 - Motor parameters  
